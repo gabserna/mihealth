@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap');
+
+* {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    font-family: "Inter", sans-serif;
+}
+
+.logo1 div {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    display: inline-block;
+}
+#textred {
+    color:crimson;
+}
+#textgreen {
+    color:#8DC728;
+}
+
+.navmenu {
+    list-style: none;
+}
+
+.navmenu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.container {
+    background-color: #cdcccc;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.healthy {
+    /*border: 5px solid rebeccapurple;  /*temporal solamente*/
+    width: 400px;
+    height: 415px;
+    margin: 20px 0 0 40px; /* dar mas espacio derecha e izquierda*/
+    top: 10px;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 50px;
+    padding-bottom: 25px;
+}
+
+.img1, .img2, .img3 {
+    margin: 10px;
+    width: 300px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.img3 {
+    object-position: 20% 10%; 
+}
+
+.dishes {
+    /*border: 5px solid green;  /*temporal solamente*/
+    display: flex;
+    width: auto;
+    height: 438px;    
+}
+#plate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tag {
+    /*border: 5px dashed blue;  /*temporal solamente     BORRAR AL FINAL*/
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 78px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.text1 {
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    background-color: #8DC728;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 110%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
